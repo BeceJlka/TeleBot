@@ -1,0 +1,1 @@
+TelegrammBotByTimi: python3 TelegrammBotByTimi.py
