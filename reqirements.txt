@@ -1,3 +1,1 @@
-pendulum
-scapy
-git+https://github.com/meya-ai/pip-bot-example
+gunicorn==19.7.1
