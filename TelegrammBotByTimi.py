@@ -1,7 +1,7 @@
 
 import telebot
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("TOKEN")
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True)
 keyboard1.row('Где ты', 'Связаться')
 keyboard1.row('Инфо', 'Список команд')
