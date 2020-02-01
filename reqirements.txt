@@ -1,1 +1,3 @@
-pip pyTelegramBotAPI
+pendulum
+scapy
+git+https://github.com/meya-ai/pip-bot-example
