@@ -9,7 +9,7 @@ keyboard1.row('Где ты', 'Связаться')
 keyboard1.row('Инфо', 'Список команд')
 keyboard2 = telebot.types.ReplyKeyboardMarkup(True)
 keyboard2.row('Резюме', 'linkedin', 'Drive2')
-keyboard2.row('Drive2', 'Почта', 'back')
+keyboard2.row('Почта', 'back')
 keyboard2.row('Оставить свой контакт')
 last_location_latitude = ''
 last_location_longitude = ''
@@ -48,7 +48,7 @@ def send_text(message):
                          'Пока -- Бот попрощаеться с вами\n', reply_markup=keyboard1)
     elif message.text.lower() == 'пока':
         bot.send_message(message.chat.id, 'Прощайте, заходите к нам еще',
-                         bot.send_sticker(message.chat.id, "CAADAgADAQUAAnwFBxsSjkZ7TP7blhYE"))
+                         bot.send_sticker(message.chat.id, "CAACAgIAAxkBAAIiKF471BJMj6ggpKgVeOJawauo8zD1AAJCAQACYyviCaDbFw5JxdrFGAQ"))
     elif message.text.lower() == 'почта':
         bot.send_message(message.chat.id, 'TimurLakoba@gmail.com')
     elif message.text.lower() == 'drive2':
