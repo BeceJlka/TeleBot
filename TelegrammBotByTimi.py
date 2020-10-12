@@ -67,7 +67,6 @@ def send_text(message):
                          bot.send_message('282060981', 'Тебе там написали!'), reply_markup=keyboard1)
     elif message.text.lower() == 'back':
         bot.send_message(message.chat.id, 'Вернемся назад', reply_markup=keyboard1)
-    print(message)
 
 
 bot.polling()
