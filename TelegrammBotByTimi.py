@@ -11,8 +11,8 @@ keyboard2 = telebot.types.ReplyKeyboardMarkup(True)
 keyboard2.row('Резюме', 'linkedin', 'Drive2')
 keyboard2.row('Почта', 'back')
 keyboard2.row('Оставить свой контакт')
-last_location_latitude = ''
-last_location_longitude = ''
+last_location_latitude = 0
+last_location_longitude = 0
 
 
 @bot.message_handler(commands=['start'])
